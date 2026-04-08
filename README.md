@@ -3,11 +3,10 @@
 Power BI dashboard for analyzing revenue and expenses, tracking sales trends, and understanding customer behavior, enabling data-driven insights and answering business-focused questions.
 
 <p align="center">
-  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Landing%20Page.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Landing%20Page.jpg" width="250"/></a>
-  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Income%20and%20Expences.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Income%20and%20Expences.jpg" width="250"/></a>
-  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Analysis.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Analysis.jpg" width="250"/></a>
-  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Plan-Fact.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Plan-Fact.jpg" width="250"/></a>
-    <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Good's%20card.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Good's%20card.jpg" width="250"/></a>
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Income%20and%20Expences.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Income%20and%20Expences.jpg" width="400"/></a>
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Analysis.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Analysis.jpg" width="400"/></a>
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Plan-Fact.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Plan-Fact.jpg" width="400"/></a>
+    <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Good's%20card.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Good's%20card.jpg" width="400"/></a>
 </p>
 
 ## Data Source Description
