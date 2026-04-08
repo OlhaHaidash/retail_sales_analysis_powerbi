@@ -2,6 +2,14 @@
 
 Power BI dashboard for analyzing revenue and expenses, tracking sales trends, and understanding customer behavior, enabling data-driven insights and answering business-focused questions.
 
+<p align="center">
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Landing%20Page.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Landing%20Page.jpg" width="250"/></a>
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Income%20and%20Expences.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Income%20and%20Expences.jpg" width="250"/></a>
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Analysis.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Analysis.jpg" width="250"/></a>
+  <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Plan-Fact.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Sales%20Plan-Fact.jpg" width="250"/></a>
+    <a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Good's%20card.jpg"><img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Good's%20card.jpg" width="250"/></a>
+</p>
+
 ## Data Source Description
 This dataset includes transactional data from a fashion retail chain covering the period from January 1, 2023 to September 30, 2025. It captures sales across multiple product categories, including footwear, outerwear, accessories, underwear, and headwear.
 
@@ -27,19 +35,14 @@ Performed data cleaning and normalization across dimension tables:
 
 Built a dynamic date table using DAX (CALENDAR), where the start date is derived from the minimum transaction date and the end date from the maximum planned sales date. This approach ensures the calendar automatically updates as new data is loaded. Additional columns were created, including year, month, day, and day of the week, enabling time-based analysis and identification of monthly and weekly seasonality patterns. 
 
+  <img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Calendar.jpg" width="400"/>
+
 Enriched the dataset by integrating daily exchange rates via an external API ([National Bank](https://bank.gov.ua/NBU_Exchange/exchange_site?start=20230101&end=20301231&valcode=usd&sort=exchangedate&order=desc&json)), enabling dynamic currency conversion and up-to-date financial analysis.
 
-<br><br>
-<a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Currency.jpg">
   <img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Currency.jpg" width="1000"/>
-</a>
-<br><br>
 
 Structured the data model by separating fact (transactional) and dimension tables, and established relationships between them to support efficient navigation and multi-dimensional analysis. To improve usability and avoid duplication, key columns used for relationships were hidden in fact tables.
 
-<br><br>
-<a href="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Table's%20Relationships.jpg">
   <img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Table's%20Relationships.jpg" width="1000"/>
-</a>
-<br><br>
+
 
