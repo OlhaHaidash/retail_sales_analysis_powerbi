@@ -16,7 +16,7 @@ Data was collected from multiple heterogeneous sources, including structured Exc
 
 Performed data transformation and normalization in Power BI using Power Query, including handling inconsistent schemas, standardizing formats, and merging datasets into a unified data model. This enabled scalable analysis and ensured data consistency across all reporting layers.
 
-Explore dataset: [Fashion Retail Sales Dataset](https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/%D0%94%D0%B6%D0%B5%D1%80%D0%B5%D0%BB%D0%B0%20%D0%B4%D0%B0%D0%BD%D0%B8%D1%85.rar)
+Explore dataset: [Fashion Retail Sales Dataset](https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Data%20sources.rar)
 
 
 ## Data Modeling Process
