@@ -21,7 +21,7 @@ Explore dataset: [Fashion Retail Sales Dataset](https://github.com/OlhaHaidash/r
 
 ## Data Modeling Process
 
-Connected the primary dataset “Budget & Sales (Stores 1–9)”, which includes dimension tables (stores, products, customers) and transactional tables covering actual sales, purchases, operational expenses, and store visitors. Performed initial data preparation by removing unnecessary columns, setting appropriate data types, and extracting hour-level data from timestamp fields to enable peak-hour analysis.
+Connected the primary dataset “Budget & Sales (Stores 1–9)”, which includes dimension tables (stores, products, customers) and transactional tables covering actual sales, purchases, operational expenses, and store visitors. Performed initial data preparation by removing unnecessary columns, setting appropriate data types, etc.
 
 Integrated additional data from a folder source “Kharkiv Sales”, where stores use a different order management system and data structure. Standardized and normalized the dataset by aligning store naming conventions using value replacement techniques. Appended Kharkiv transaction data to the main transaction table using Append Queries, and disabled load for intermediate queries to optimize performance.
 
