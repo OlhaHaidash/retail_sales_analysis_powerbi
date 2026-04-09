@@ -46,6 +46,94 @@ Structured the data model by separating fact (transactional) and dimension table
 
   ## DAX
 
-  DAX allowed me to
+I used DAX to build core business logic, calculate key metrics, and enable dynamic analysis within the dashboard.
 
+Developed a dynamic date table and implemented a set of measures to support multi-currency reporting, allowing users to switch between UAH and USD using exchange rates valid for each transaction date.
+
+Created key business metrics, including gross profit, net profit, average order value, profit margin (%), and inventory levels.
+
+Additionally, implemented time intelligence calculations to support period-over-period analysis and predefined date selections.
+
+<details>
+  <summary>Inventory Balance Calculation</summary>
+
+  ```
+
+Залишок = 
+CALCULATE(
+    SUM('рЗакупки'[Кількість]),
+    FILTER(
+        ALL('Календар'),
+        'Календар'[Дата] <= MAX('Календар'[Дата])
+    )
+)
+-
+CALCULATE(
+    SUM('рПродажіФакт'[Кількість]),
+    FILTER(
+        ALL('Календар'),
+        'Календар'[Дата] <= MAX('Календар'[Дата])
+    )
+)
+```
+</details>
+
+
+<details>
+  <summary>Predefined Time Periods (Time Intelligence)</summary>
+
+  ```
+Продажі за період = 
+SWITCH(
+    SELECTEDVALUE('Періоди'[Період]),
+
+    "сьогодні", 
+        CALCULATE(
+            [Мультивалютні продажі],
+            FILTER('Календар', 'Календар'[Дата] = TODAY())
+        ),
+
+    "вчора", 
+        CALCULATE(
+            [Мультивалютні продажі],
+            FILTER('Календар', 'Календар'[Дата] = TODAY() - 1)
+        ),
+
+    "1е півріччя 2023 року", 
+        CALCULATE(
+            [Мультивалютні продажі],
+            FILTER(
+                'Календар',
+                'Календар'[Рік] = 2023 &&
+                'Календар'[Дата] <= DATE(2023,6,30)
+            )
+        ),
+
+    "2е півріччя 2023 року", 
+        CALCULATE(
+            [Мультивалютні продажі],
+            FILTER(
+                'Календар',
+                'Календар'[Рік] = 2023 &&
+                MONTH('Календар'[Дата]) >= 7
+            )
+        ),
+
+    "останні 365 днів", 
+        CALCULATE(
+            [Мультивалютні продажі],
+            FILTER(
+                'Календар',
+                'Календар'[Дата] >= TODAY()-365 &&
+                'Календар'[Дата] <= TODAY()
+            )
+        ),
+
+    "весь період", 
+        [Мультивалютні продажі]
+)
+
+```
+
+</details>
 
