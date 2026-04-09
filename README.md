@@ -186,3 +186,32 @@ All reports include interactive filters for:
 - city and store
 
 A reset button allows users to quickly clear all applied filters.
+
+## Analytical Report & Business Recommendations
+
+### 1. General Business Overview
+
+Profitability: Total Revenue is 27.2M UAH, with a Net Profit of 2.7M UAH. The net profit margin is approximately 10%, which is stable but shows room for expense optimization.
+
+Margin: A high Gross Margin of 47.87% indicates a strong pricing strategy or favorable procurement terms.
+
+Store Efficiency: Most locations are profitable; however, Store №3 shows negative contributions to Net Profit (as seen in the "Store Contribution to Net Profit" waterfall chart).
+
+### 2. Key Insights
+
+Expense Structure: The highest operational costs are Salaries (4.8M) and Rent (3.2M). Marketing spends are relatively low, which might explain the consistent gap in reaching sales targets.
+
+Plan vs. Actual: There is a consistent underperformance compared to the sales plan throughout 2023-2025. The targets might be overly ambitious or not backed by enough marketing activity.
+
+Star Product: "Boots Type 3, Reebok" is the top revenue generator (376k), but the remaining stock is only 31 units. At the current sales rate, the company is facing a high risk of out-of-stock scenarios. Sales are concentrated in Kyiv and Dnipro.
+
+### 3. Strategic Business Decisions
+
+Operational Audit: Conduct a deep dive into Store №3. If operational costs (rent/staff) consistently outweigh marginal profit, consider relocation or closure.
+
+Inventory Management: Urgently restock top-performing items (Reebok, Nike brands). High-velocity items should have a safety stock level higher than current figures.
+
+Target Alignment: Adjust future sales plans to be more realistic (approx. 10-15% lower) or increase the marketing budget to bridge the gap between "Actual" and "Plan."
+
+Average Check Boost: The average transaction value is 3,348 UAH. Implement cross-selling strategies (accessories, socks, cleaning kits) to increase this metric by 5-7%.
+
