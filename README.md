@@ -137,3 +137,52 @@ SWITCH(
 
 </details>
 
+## Interactive Dashboard Features
+
+### Landing Page
+
+Designed an interactive landing page that introduces users to the dashboard structure and purpose. It includes a navigation guide with key instructions on how to use filters, interact with visuals, and navigate between reports.
+
+### Revenue & Expenses Analysis
+
+Provides a comprehensive overview of financial performance, including:
+
+- revenue trends over time
+- expense structure
+- contribution of individual stores to net profit
+- revenue breakdown by store
+- geographic distribution of sales by product category (map visualization)
+
+### Sales Analysis
+
+Focuses on sales performance and customer behavior:
+
+- sales dynamics and average order value
+- product category breakdown
+- top 7 best-selling products
+- detailed sales table
+
+Enhanced interactivity includes:
+
+- tooltip drill-down: hovering over monthly sales reveals store-level breakdown
+- drill-through functionality: access detailed product-level insights from visuals or tables
+
+### Product-Level Analysis (Drill-through)
+
+Dedicated product view with:
+
+- key KPIs for selected product
+- inventory levels across stores
+- sales trends over time
+- sales distribution by store
+- detailed table of recent transactions across the network
+
+### Global Filters & Controls
+
+All reports include interactive filters for:
+
+- date (year or specific period)
+- currency (multi-currency reporting)
+- city and store
+
+A reset button allows users to quickly clear all applied filters.
