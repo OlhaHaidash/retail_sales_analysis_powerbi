@@ -44,4 +44,8 @@ Structured the data model by separating fact (transactional) and dimension table
 
   <img src="https://github.com/OlhaHaidash/retail_sales_analysis_powerbi/blob/main/Images/Table's%20Relationships.jpg" width="1000"/>
 
+  ## DAX
+
+  DAX allowed me to
+
 
